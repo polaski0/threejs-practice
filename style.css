@@ -2,4 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+}
+
+body,
+html {
+    overflow: hidden;
+}
+
+#webgl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+nav {
+    color: white;
+    z-index: 2;
+    position: relative;
+    padding: 4rem 8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav,
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+nav a:active {
+    color: white;
 }
